@@ -1,0 +1,6 @@
+@ADOwebAPI_HostAddress = http://localhost:5250
+
+GET {{ADOwebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
