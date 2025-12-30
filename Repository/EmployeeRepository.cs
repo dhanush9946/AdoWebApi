@@ -27,8 +27,8 @@ namespace ADOwebAPI.Repository
             {
                 list.Add(new Employee
                 {
-                    Id = dr.GetInt32(0),
-                    Name = dr.GetString(1)
+                    Id = dr.GetInt32(1),
+                    Name = dr.GetString(0)
                 });
             }
             return list;
